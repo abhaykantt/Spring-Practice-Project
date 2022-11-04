@@ -12,7 +12,7 @@ public class Component1 {
     
     public void completeWithObject(String operation,Employee employee) {
     	if (operation.equalsIgnoreCase("print")) {
-			System.out.println("Employee Name :"+employee.getName());
+			System.out.println("Employee Name  Abhay :"+employee.getName());
 		}
     	if (operation.equalsIgnoreCase("del")) {
 			System.out.println("Employee Deleted");
